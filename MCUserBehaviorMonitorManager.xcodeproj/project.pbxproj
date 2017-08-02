@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2DF5EF1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2DF5EE1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.m */; };
+		1B2DF5F01F31C7FE0086C087 /* MCUserBehaviorMonitorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B2DF5ED1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.h */; };
+		1B2DF5FB1F31C8340086C087 /* MCReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2DF5F81F31C8340086C087 /* MCReachability.m */; };
+		1B2DF5FC1F31C8340086C087 /* StatisticDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2DF5FA1F31C8340086C087 /* StatisticDBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B2DF5E81F31C7FE0086C087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1B2DF5F01F31C7FE0086C087 /* MCUserBehaviorMonitorManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B2DF5EA1F31C7FE0086C087 /* libMCUserBehaviorMonitorManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMCUserBehaviorMonitorManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B2DF5ED1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCUserBehaviorMonitorManager.h; sourceTree = "<group>"; };
+		1B2DF5EE1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCUserBehaviorMonitorManager.m; sourceTree = "<group>"; };
+		1B2DF5F61F31C8340086C087 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		1B2DF5F71F31C8340086C087 /* MCReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCReachability.h; sourceTree = "<group>"; };
+		1B2DF5F81F31C8340086C087 /* MCReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCReachability.m; sourceTree = "<group>"; };
+		1B2DF5F91F31C8340086C087 /* StatisticDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticDBManager.h; sourceTree = "<group>"; };
+		1B2DF5FA1F31C8340086C087 /* StatisticDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticDBManager.m; sourceTree = "<group>"; };
+		1B2DF5FE1F31C8750086C087 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		1B2DF5FF1F31C8750086C087 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		1B2DF6001F31C8750086C087 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		1B2DF6011F31C8750086C087 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		1B2DF6021F31C8750086C087 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		1B2DF6031F31C8750086C087 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B2DF5E71F31C7FE0086C087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2DF5E11F31C7FE0086C087 = {
+			isa = PBXGroup;
+			children = (
+				1B2DF5EC1F31C7FE0086C087 /* MCUserBehaviorMonitorManager */,
+				1B2DF5EB1F31C7FE0086C087 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B2DF5EB1F31C7FE0086C087 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2DF5EA1F31C7FE0086C087 /* libMCUserBehaviorMonitorManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B2DF5EC1F31C7FE0086C087 /* MCUserBehaviorMonitorManager */ = {
+			isa = PBXGroup;
+			children = (
+				1B2DF5FD1F31C8750086C087 /* FMDB */,
+				1B2DF5F61F31C8340086C087 /* Aspects.h */,
+				1B2DF5F71F31C8340086C087 /* MCReachability.h */,
+				1B2DF5F81F31C8340086C087 /* MCReachability.m */,
+				1B2DF5F91F31C8340086C087 /* StatisticDBManager.h */,
+				1B2DF5FA1F31C8340086C087 /* StatisticDBManager.m */,
+				1B2DF5ED1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.h */,
+				1B2DF5EE1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.m */,
+			);
+			path = MCUserBehaviorMonitorManager;
+			sourceTree = "<group>";
+		};
+		1B2DF5FD1F31C8750086C087 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1B2DF5FE1F31C8750086C087 /* FMDatabase.h */,
+				1B2DF5FF1F31C8750086C087 /* FMDatabaseAdditions.h */,
+				1B2DF6001F31C8750086C087 /* FMDatabasePool.h */,
+				1B2DF6011F31C8750086C087 /* FMDatabaseQueue.h */,
+				1B2DF6021F31C8750086C087 /* FMDB.h */,
+				1B2DF6031F31C8750086C087 /* FMResultSet.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B2DF5E91F31C7FE0086C087 /* MCUserBehaviorMonitorManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B2DF5F31F31C7FE0086C087 /* Build configuration list for PBXNativeTarget "MCUserBehaviorMonitorManager" */;
+			buildPhases = (
+				1B2DF5E61F31C7FE0086C087 /* Sources */,
+				1B2DF5E71F31C7FE0086C087 /* Frameworks */,
+				1B2DF5E81F31C7FE0086C087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCUserBehaviorMonitorManager;
+			productName = MCUserBehaviorMonitorManager;
+			productReference = 1B2DF5EA1F31C7FE0086C087 /* libMCUserBehaviorMonitorManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B2DF5E21F31C7FE0086C087 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘志伟";
+				TargetAttributes = {
+					1B2DF5E91F31C7FE0086C087 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B2DF5E51F31C7FE0086C087 /* Build configuration list for PBXProject "MCUserBehaviorMonitorManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B2DF5E11F31C7FE0086C087;
+			productRefGroup = 1B2DF5EB1F31C7FE0086C087 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2DF5E91F31C7FE0086C087 /* MCUserBehaviorMonitorManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B2DF5E61F31C7FE0086C087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2DF5FB1F31C8340086C087 /* MCReachability.m in Sources */,
+				1B2DF5EF1F31C7FE0086C087 /* MCUserBehaviorMonitorManager.m in Sources */,
+				1B2DF5FC1F31C8340086C087 /* StatisticDBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B2DF5F11F31C7FE0086C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B2DF5F21F31C7FE0086C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B2DF5F41F31C7FE0086C087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B2DF5F51F31C7FE0086C087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B2DF5E51F31C7FE0086C087 /* Build configuration list for PBXProject "MCUserBehaviorMonitorManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2DF5F11F31C7FE0086C087 /* Debug */,
+				1B2DF5F21F31C7FE0086C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B2DF5F31F31C7FE0086C087 /* Build configuration list for PBXNativeTarget "MCUserBehaviorMonitorManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2DF5F41F31C7FE0086C087 /* Debug */,
+				1B2DF5F51F31C7FE0086C087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B2DF5E21F31C7FE0086C087 /* Project object */;
+}
