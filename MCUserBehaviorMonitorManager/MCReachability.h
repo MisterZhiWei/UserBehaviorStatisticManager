@@ -12,11 +12,11 @@
 #import <netinet/in.h>
 
 
-typedef enum : NSInteger {
+typedef NS_ENUM(NSInteger, MCNetworkStatus) {
 	MCNotReachable = 0, // 网络不可用
 	MCReachableViaWiFi, // WiFi
 	MCReachableViaWWAN  // 蜂窝移动网络
-} MCNetworkStatus;
+} ;
 
 #pragma mark IPv6 Support
 //Reachability fully support IPv6.  For full details, see ReadMe.md.

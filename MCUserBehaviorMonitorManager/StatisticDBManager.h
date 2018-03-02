@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface StatisticDBManager : NSObject
+
 /**
  *  创建表
  *
